@@ -438,6 +438,39 @@ html, body {
   font-family: var(--font-mono);
   font-size: 0.65rem;
   color: var(--text-dim);
+  display: block;
+  margin-bottom: 14px;
+}
+
+.asset-links {
+  display: flex;
+  gap: 10px;
+}
+
+.asset-links a {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.asset-links a:hover {
+  border-color: var(--neon);
+  color: var(--neon);
+}
+
+.asset-links a.demo {
+  border-color: rgba(16,185,129,0.3);
+  color: var(--green);
+}
+
+.asset-links a.demo:hover {
+  border-color: var(--green);
 }
 
 .more { margin-top: 24px; }
