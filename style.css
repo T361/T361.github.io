@@ -420,6 +420,7 @@ html, body {
 .badge.prod { color: var(--green); }
 .badge.mvp { color: var(--text-dim); }
 .badge.staging { color: var(--yellow); }
+.badge.confidential { color: var(--neon); }
 
 .asset h3 {
   font-size: 1rem;
